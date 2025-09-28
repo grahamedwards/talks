@@ -1,0 +1,127 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+}
+ 
+
+
+.reveal h1{font-size:50px;}
+.reveal h2{font-size:45px;text-align:left;}
+.reveal h3{font-size:40px;text-align:center;}
+.reveal h4{font-size:35px;text-align:left;}
+.reveal body{font-size:30px;text-align:left;}
+.reveal p{font-size: 30px;text-align:left;}
+
+.lfoot{
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	font-size: 1ex;
+}
+.rfoot{
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	font-size: 1ex;
+}
+.cfoot{
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1ex;
+}
+
+
+
+.volcano {list-style-type: "🌋 ";}
+.waterdrop {list-style-type: "💧 "; }
+.tornado {list-style-type: "🌪 ";}
+.microbe {list-style-type: "🦠 ";}
+.ice {list-style-type: "🧊";}
+.rarr {list-style-type: "→";}
+.larr {list-style-type: "←";}
+ol.loweralpha {list-style-type: lower-alpha;}
+ol.weekly { 
+  list-style-type:none;
+  counter-reset: elementcounter;
+  padding-left: 0;
+  li:before {
+    content: "Week " counter(elementcounter) ": ";
+    counter-increment: elementcounter;
+    font-weight:bold;
+  }
+}
+
+.cols {
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cols > div {
+  flex: 1; 
+  flex-direction: row;
+  padding:0px 10px 0px 10px;
+  /*margin-bottom: 10px;*/
+  align-items: center;
+  justify-content: center;
+}
+.cols > div > img {
+  object-fit: contain;
+  min-height: 0px;
+}
+
+
+.rows{
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.rows > div {
+  flex: 1;
+  padding:10px 0px 10px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rows > div > img {
+  object-fit: contain;
+  min-height:0px;
+}
+
+
+.fragment.bold {}
+.fragment.bold.visible {font-weight:bold;}
+
+.rotate-90cw img {
+  transform: rotate(90deg);
+}
+.rotate-90ccw img {
+  transform: rotate(-90deg);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.ctab tr td {text-align: center;}
+
+.full {
+  height:100%;
+  width:100%;  
+}

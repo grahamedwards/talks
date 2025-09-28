@@ -9,12 +9,18 @@
  
 
 
-.reveal h1{font-size:50px;}
-.reveal h2{font-size:45px;text-align:left;}
-.reveal h3{font-size:40px;text-align:center;}
-.reveal h4{font-size:35px;text-align:left;}
-.reveal body{font-size:30px;text-align:left;}
-.reveal p{font-size: 30px;text-align:left;}
+.reveal h1{font-size:80px;}
+.reveal h2{font-size:60px;text-align:center;}
+.reveal h3{font-size:60px;text-align:left;}
+.reveal h4{font-size:40px;text-align:center;}
+.reveal h5{font-size:40px;text-align:left;}
+
+
+:root {
+    --r-main-color: #f3fffc;
+    --r-heading-font: "Avenir Next";
+    --r-main-font: "Avenir Next";
+}
 
 .lfoot{
 	position: static;

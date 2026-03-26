@@ -150,6 +150,12 @@ ol.weekly {
 }
 
 
+.scrollable {
+    overflow-y: auto !important; /* Enable vertical scrolling */
+    overflow-x: hidden !important; /* Hide horizontal overflow */
+    height: 900px; /* Adjust height as needed for your layout */
+}
+
 /* Fonts */
 
 @font-face {

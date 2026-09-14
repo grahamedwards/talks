@@ -54,13 +54,14 @@ strong {
 }
 
 li {
-   margin-bottom: 20px; /* Adds 10 pixels of space below each list item */
+   margin-bottom: 20px; /* Adds 20 pixels of space below each list item */
 }
 
 .snug li {
-   margin-bottom: 0px; /* Adds 10 pixels of space below each list item */
+   margin-bottom: 0px; 
 }
 
+.austere li {list-style-type:"";}
 .volcano {list-style-type: "🌋 ";}
 .waterdrop {list-style-type: "💧 "; }
 .tornado {list-style-type: "🌪 ";}
@@ -69,16 +70,6 @@ li {
 .rarr {list-style-type: "→";}
 .larr {list-style-type: "←";}
 ol.loweralpha {list-style-type: lower-alpha;}
-ol.weekly { 
-  list-style-type:none;
-  counter-reset: elementcounter;
-  padding-left: 0;
-  li:before {
-    content: "Week " counter(elementcounter) ": ";
-    counter-increment: elementcounter;
-    font-weight:bold;
-  }
-}
 
 .cols {
   display:flex;

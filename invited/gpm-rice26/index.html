@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Rice University, Sep 2026</title>
+
+		<link rel="stylesheet" href="../../revealjs/dist/reset.css">
+		<link rel="stylesheet" href="../../revealjs/dist/reveal.css">
+		<link rel="stylesheet" href="../../revealjs/dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="../../custom.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>	
+					<section data-background-image="../../img/planetary/double-rubble.jpg" data-background-opacity="0.5">
+						<h1 class="r-fit-text">A meteoritical perspective of <br> giant planet migration</h1>
+						<h5>Graham H. Edwards</h5>
+						<p>Earth &amp; Environmental Geosciences, Trinity University</p>
+
+						<div class="cols">
+							<div>
+								<h5>Rice University</h5>
+								<p>17 September 2026</p>
+							</div>
+							<div>
+								<img height=140px style="margin:20px;" src="../../img/ghe/geosciences.svg">
+								<img height=150px style="margin:20px;" src="../../img/ghe/nsf-logo.svg">
+							</div>
+						</div>
+
+						<div class="lfoot"><a href="https://www.jpl.nasa.gov/images/pia11375-double-the-rubble-artist-concept/">NASA/JPL-Caltech</a></div>
+						
+					</section>
+					
+					<section data-auto-animate>
+						<h1>My science spans two broad categories&hellip;</h1>
+						<div class="cols">
+							<div>
+								<img src="../../img/ghe/taylor-glacier.jpg">
+								<h5>Quaternary climate</h5>
+							</div>
+							<div class="fragment">
+								<img src="../../img/ghe/atom.svg">
+								<h5>Isotope geochemistry</h5>
+							</div>
+							<div>
+								<img src="../../img/ghe/protoplanetary-disk.jpg">
+								<h5>Cosmochemistry</h5>
+							</div>
+						</div>
+						<br><br>
+						<div class="lfoot">G.H. Edwards / <a href="https://science.nasa.gov/asset/webb/protoplanetary-disk-artists-concept/">NASA/JPL-Caltech</a></div>
+					</section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Reconstructing early solar system processes from meteorites</h1>
+							<img class="r-stretch" src="../../img/ghe/protoplanetary-disk.jpg">
+							<div class="lfoot"><a href="https://science.nasa.gov/asset/webb/protoplanetary-disk-artists-concept/">NASA/JPL-Caltech</a></div>
+					</section>
+					<section>
+						<h1>Contextualizing the formation of planetary systems</h1>
+						<img class="r-stretch" src="../../img/planetary/star_formation.svg"/>
+						<div class="lfoot">Inspired by <a href="https://doi.org/10.1016/j.physrep.2020.09.004">Öberg &amp; Bergin, 2021</a></div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1 class="r-fit-text">Giant planet migration</h1>
+						<h3 class="fragment">is a quotidian feature of planetary systems</h3>
+					</section>
+					<section>
+						<h1 class="r-fit-text">Planetary migration is common in the galaxy</h1>   
+						<div class="cols">
+							<div style="flex-grow:2;"><img src="../../img/planetary/hottest-jupiter.jpg"/></div>
+							<div>
+								<h4>Hot Jupiters likely migrated inward from larger radii</h4>
+								<cite>
+									<a href="https://doi.org/10.1146/annurev-astro-081817-051853">Dawson+Johnson 2018</a></cite>
+							</div>
+						</div>
+						<div class="lfoot"><a href="https://www.jpl.nasa.gov/images/pia21472-hottest-hot-jupiter-animation-artists-concept/">NASA/JPL-Caltech</a></div>
+					</section>
+					<section>
+						<h1 class="r-fit-text">Planetary migration is common in the galaxy</h1>   
+						<div class="cols">
+							<div style="flex-grow:2;"><img src="../../img/planetary/kepler-planets.webp"/></div>
+							<div>
+								<h4>Exoplanet spacing and eccentricity distributions reflect dynamical excitation</h4>
+								<cite><a href="https://doi.org/10.1088/0004-637X/807/1/44">Pu+Wu 2015</a>, 
+									<a href="https://doi.org/10.1088/0004-637X/711/2/772">Raymond+ 2010</a></cite>
+							</div>
+						</div>
+						<div class="lfoot"><a href="https://www.nasa.gov/image-article/kepler-11-system/">NASA/Tim Pyle</a></div>
+					</section>
+
+					<section>
+						<h1 class="r-fit-text">Giant planet migration</h1>
+
+						<h3>is a quotidian feature of planetary systems</h3>
+						<h1 class="fragment">&hellip;including our solar system</h1>
+					</section>
+					<section data-auto-animate>
+						<h1 class="r-fit-text">Evidence of migration in the outer solar system</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/evidence/outerss-labelled.svg"/>
+					</section>
+					<section data-auto-animate>
+						<h1 class="r-fit-text">Evidence of migration in the outer solar system</h1>
+						<div class="cols">
+							<div>
+								<img src="../../img/planetary/gpm/evidence/outerss-labelled.svg"/>
+							</div>
+							<div>
+								<h4>Orbital eccentricities and inclinations of giant planets and Kuiper Belt objects.</h4>
+								<cite>
+									<a href="https://doi.org/10.1016/0019-1035(84)90101-5">Fern&aacute;ndez+Ip 1984</a>,
+									<a href="https://doi.org/10.1038/nature03539">Tsiganis+ 2005</a>,
+									<a href="https://doi.org/10.1038/nature03676">Gomes+&nbsp;2003</a>
+								</cite>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h1 class="r-fit-text">Evidence of migration in the inner solar system</h1>
+						<div class="r-stack">
+							<img src="../../img/planetary/gpm/evidence/innerss.svg"
+							/>
+							<img class="fragment"
+								src="../../img/planetary/gpm/evidence/innerss-asteroids.svg"/>
+							<img class="fragment fade-in" src="../../img/planetary/gpm/evidence/innerss-mars+asteroids.svg"/>
+							</div>
+							<div>Mixed inner and outer solar system material and a small Mars.</div>
+					</section>
+
+					<section>
+						<h1>Heavy bombardment of rocky bodies </h1>
+						<div class="cols">
+							<div>
+								<img height=600px src="../../img/planetary/moon.png"/>
+							</div>
+							<div>
+								<q>The heavily cratered terrains of the Moon and other bodies&hellip;provide clear physical evidence for an elevated flux of impactors across the Solar System that continued for several hundred million years after the initial accretion and differentiation of the terrestrial planets.</q>
+								
+								<p><a href="https://doi.org/10.1146/annurev-earth-063016-020131">Bottke+Johnson 2017</i></a></p>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<h1>The Late Heavy Bombardment</h1>
+						<div class="cols">
+							<div>
+								<img height=600px src="../../img/planetary/moon.png"/>
+								<h1>&sim;3.9 Ga</h1>
+							</div>
+							<div>
+								<img src="../../img/planetary/lhb-papers.png"/>
+
+								<img height="300px" src="../../img/planetary/Apollo_program.svg"/>
+
+								<div class="cfoot"><a href="https://commons.wikimedia.org/wiki/File:Apollo_program.svg">Wikimedia</a></div>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<h1><s>The Late Heavy Bombardment</s></h1>
+						<div class="cols">
+							<div>
+								<img height=600px src="../../img/planetary/moon.png"/>
+							</div>
+							<div>
+								<h4>Illusory Late Heavy Bombardments</h4>
+								<p><a href="https://doi.org/10.1073/pnas.1611535113">Boehnke+Harrison 2016, <em>PNAS</em></a></p>
+
+								<hr>
+
+								<h4>Evidence against a Late Heavy Bombardment event on Vesta</h4>
+								<p><a href="https://doi.org/10.1016/j.epsl.2022.117576">Cartwright+ 2022, <em>EPSL</em></a></p>
+								
+								<hr>
+
+								<h4>Evidence for very early migration of the Solar System planets from the Patroclus&ndash;Menoetius binary Jupiter Trojan</h4>
+								<p><a href="https://doi.org/10.1038/s41550-018-0564-3">Nesvorn&yacute;+ 2018, <em>Nature Astronomy</em></a></p>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image="../../img/planetary/debris-disk.jpg" data-background-opacity="0.9">
+						<h1 class="r-fit-text"><span class="fragment custom strong">Mechanisms</span> &amp; timing of migration</h1>
+						<div class="lfoot"><a href="https://www.jpl.nasa.gov/images/pia22082-giant-exoplanet-and-debris-disk-artists-concept/">NASA/JPL</a></div>
+					</section>
+					<section>
+						<h1>Mechanisms of giant planet migration</h1>
+						<br>
+						<h3 class="fragment">The classics:</h3>
+						<br>
+						<ol class="fragment">
+							<li>The Grand Tack</li>
+							<li>Giant planet instability</li>
+						</ol>
+					</section>
+
+
+
+					<section>
+						<h1>Giant planets carve gaps in gaseous protoplanetary disks and migrate inwards</h1>
+						<div class="cols">
+							<div>
+								<img height=400px src="https://upload.wikimedia.org/wikipedia/commons/9/9d/HL_Tau_protoplanetary_disk.jpg"/>
+								<div class="cfoot"><a href="https://commons.wikimedia.org/wiki/File:HL_Tau_protoplanetary_disk.jpg">ALMA, NASA/ESA</a></div>
+							</div>
+							<div class="fragment">
+								<img height=400px src="../../img/planetary/disk-annotated.png"/>
+								<div class="cfoot">Adapted from <a href="https://doi.org/10.1146/annurev-astro-081811-125523">Kley+Nelson 2012</a></div>
+							</div>
+						</div>
+						<div class="fragment">
+							<hr>
+							<h3>Gas disk lifetimes &lt;10 My (3&ndash;5 My<sub>ss</sub>)</h3>
+							<cite>
+								<a href="https://doi.org/10.1086/320685">Haisch+ 2001</a>,
+								<a href="https://doi.org/10.1088/0004-6256/138/4/1116">Sung+ 2009</a>,
+								<a href="https://doi.org/10.1146/annurev-astro-081710-102548">Williams+Cieza 2011</a>,
+								<a href="https://doi.org/10.1029/2021JE007139">Borlina+ 2022</a>
+							</cite>
+						</div>
+					</section>	
+					<section data-auto-animate="grand tack">
+						<h1 class="r-fit-text">The Grand Tack</h1>
+					</section>
+					<section data-auto-animate="grand tack">
+						<h1>The Grand Tack</h1>							
+						<div class="r-stack">
+							<div class="fragment fade-out" data-fragment-index="1" >
+								<img src ="../../img/planetary/gpm/mechanisms/grand-tack1.svg"/>
+								<p>Proto-Jupiter carves out a gap in the disk.</p>
+							</div>
+							<div class="fragment current-visible" data-fragment-index="1" >
+								<img src ="../../img/planetary/gpm/mechanisms/grand-tack2.svg"/>
+								<p>Jupiter migrates inward as Saturn becomes large enough to migrate, too.</p>
+							</div>
+							<div class="fragment current-visible" data-fragment-index="2" >
+								<img src ="../../img/planetary/gpm/mechanisms/grand-tack3.svg"/>
+								<p>Saturn catches Jupiter in a mean motion resonance, and they <q>tack</q> outward.</p>
+							</div>
+							<div class="fragment current-visible" data-fragment-index="3" >
+								<img src ="../../img/planetary/gpm/mechanisms/grand-tack4.svg"/>
+								<p>Mixed inner and outer solar system material and a small Mars.</p>
+							</div>
+						</div>
+						<cite><a href="http://doi.org/10.1038/nature10201">Walsh+ 2005</a></cite>
+					</section>
+					
+					<section data-auto-animate="instability">
+						<h1 class="r-fit-text">Giant planet instability</h1>	
+					</section>
+					<section data-auto-animate="instability">
+						<h1>Giant planet instability</h1>							
+							<div class="r-stack">
+								<div class="fragment fade-out" data-fragment-index="1" >
+									<img src ="../../img/planetary/gpm/mechanisms/instability0.svg"/>
+									<p>A large and compact Kuiper Belt remains after gas (disk) dissipation.</p>
+								</div>
+								<div class="fragment current-visible" data-fragment-index="1" >
+									<img src ="../../img/planetary/gpm/mechanisms/instability1.svg"/>
+									<p>Disk-planet interactions. Jupiter and Saturn drift into 2:1 resonance. </p>
+								</div>
+								<div class="fragment current-visible" data-fragment-index="2" >
+									<img src ="../../img/planetary/gpm/mechanisms/instability2.svg"/>
+									<p>Dynamical instability!</p>
+								</div>
+								<div class="fragment current-visible" data-fragment-index="3" >
+									<img src ="../../img/planetary/gpm/mechanisms/instability3.svg"/>
+									<p>Modern architecture.</p>
+								</div>
+							</div>
+						<cite><a href="http://doi.org/10.1038/nature03539">Tsiganis+ 2005</a></cite>
+					</section>
+
+					<section>
+						<h1>Mechanisms of giant planet migration</h1>
+						<br>
+						<h3>Variations on instability</h3>
+						<br>
+						<ol class="fragment">
+							<li>Gas dissipation and rebound</li>
+							<li>Self-unstable systems</li>
+						</ol>
+					</section>
+
+					<section data-auto-animate>
+						<h1 class="r-fit-text">Gas dissipation &amp; planet rebound</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/mechanisms/gas-diss0.svg"/>
+						<h5>Gaseous disks apply inner and outer torques on embedded planets</h5>
+					</section>
+
+					<section data-auto-animate>
+						<h1>Gas dissipation &amp; planet rebound</h1>							
+						<div class="cols">
+							<div class="r-stack" style="flex-grow:2;">
+								<img class="fragment fade-out" data-fragment-index="1" src ="../../img/planetary/gpm/mechanisms/gas-diss1.svg"/>
+
+								<img class="fragment current-visible" data-fragment-index="1" src="../../img/planetary/gpm/mechanisms/gas-diss2.svg"/>
+
+								<img class="fragment current-visible" data-fragment-index="2" src="../../img/planetary/gpm/mechanisms/gas-diss3.svg"/>
+
+							</div>
+							<div style="flex-grow:1;">
+								<ol>
+									<li>Photoevaporation of inner disk terminus</li>
+									<li class="fragment" data-fragment-index="1">Saturn pulled outward by retreating gas (<q>rebound</q>)</li>
+									<li class="fragment" data-fragment-index="2">Outward migration of Saturn compresses outer orbits, increases close encounters</li>
+								</ol>
+								<cite><a href="http://doi.org/10.1038/s41586-022-04535-1">Liu+ 2022</a></cite>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<h1>Gas dissipation &amp; planet rebound</h1>	
+						<img class="r-stretch" src="../../img/planetary/gpm/mechanisms/instability2.svg"/>
+						<h3>Dynamical instability ensues</h3>
+					</section>
+
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Self-unstable systems</h1>
+					</section>
+					<section data-auto-animate="">
+						<h1>Self-unstable systems</h1>							
+						<div class="r-stack">
+							<div class="fragment fade-out" data-fragment-index="1" >
+								<img src ="../../img/planetary/gpm/mechanisms/unstable-configuration0.svg"/>
+								<p>Planetary architecture forms embedded within a gaseous disk.</p>
+							</div>
+							<div class="fragment current-visible" data-fragment-index="1" >
+								<img src ="../../img/planetary/gpm/mechanisms/unstable-configuration1.svg"/>
+								<p>The disk dissipates&hellip;</p>
+							</div>
+							<div class="fragment current-visible" data-fragment-index="2" >
+								<img src ="../../img/planetary/gpm/mechanisms/unstable-configuration2.svg"/>
+								<p>&hellip;and dissipates&hellip;</p>
+							</div>
+							<div class="fragment current-visible" data-fragment-index="3" >
+								<img src ="../../img/planetary/gpm/mechanisms/unstable-configuration3.svg"/>
+								<p>&hellip;and dissipates&hellip;</p>
+							</div>
+							<div class="fragment fade-in" data-fragment-index="4" >
+								<img src ="../../img/planetary/gpm/mechanisms/instability2.svg"/>
+								<p>Dynamical instability!</p>
+							</div>
+						</div>
+						<cite><a href="http://doi.org/10.1016/j.icarus.2019.113605">Ribeiro de Sousa+ 2020</a></cite>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image="../../img/planetary/debris-disk.jpg" data-background-opacity="0.9">
+						<h1 class="r-fit-text">Mechanisms &amp; <span class="fragment custom strong">timing</span> of migration</h1>
+						<div class="lfoot"><a href="https://www.jpl.nasa.gov/images/pia22082-giant-exoplanet-and-debris-disk-artists-concept/">NASA/JPL</a></div>
+					</section>
+					<section>
+						<h1>Solar system <em>time-zero</em></h1>
+						<div class="cols">
+							<div>
+								<h4 class="fragment" data-fragment-index="1" >Ca-Al-rich inclusions (CAIs)</h4>
+								<div class="r-stack">
+									<img src="../../img/planetary/allende.png"/>
+									<img class="fragment" data-fragment-index="1" src="../../img/planetary/allende-cais.png"/>
+								</div>
+								<div class="lfoot">Allende (CV3), American Museum of Natural History</div>
+							</div>
+							<div>
+								<h4 class="fragment" data-fragment-index="1" >CAIs = &ldquo;solar age&rdquo;</h4>
+								<h4 class="fragment" data-fragment-index="2" >0 My<sub>ss</sub> = 4567.3 Ma</h4>
+								<img class="r-frame" height=400px src="../../img/ghe/protoplanetary-disk.jpg">
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">When did giant planets migrate?</h1>
+					</section>
+					<section data-auto-animate="">
+						<h1>When did giant planets migrate?</h1>
+						<h3>Four mechanisms, four timescales</h3>
+						<br>
+						<table>
+							  <tr><td>Gas-driven migration (Grand Tack)</td></tr>
+							  <tr><td>Planetesimal disk-triggered instability</td></tr>
+							  <tr><td>Gas dissipation (and rebound)</td></tr>
+							  <tr><td>Self-unstable systems</td></tr>
+						</table>
+						</section>
+					<section data-auto-animate="">
+						<h1>When did giant planets migrate?</h1>
+						<div class="r-stack">
+							<img height=650px class="fragment current-visible"  src="../../img/planetary/gpm/timescales0.png"/>
+							<img height=650px class="fragment current-visible" src="../../img/planetary/gpm/timescales1.png"/>
+							<img height=650px class="fragment current-visible" src="../../img/planetary/gpm/timescales2.png"/>
+							<img height=650px class="fragment current-visible" src="../../img/planetary/gpm/timescales3.png"/>
+							<img height=650px class="fragment fade-in" src="../../img/planetary/gpm/timescales4.png"/>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Perseid_Meteor_Shower_at_Mojave_National_Preserve_%2851374983157%29_%28cropped%29.jpg/1280px-Perseid_Meteor_Shower_at_Mojave_National_Preserve_%2851374983157%29_%28cropped%29.jpg" data-background-opacity="0.6" ><h1 class="r-fit-text">So&hellip;a meteoritical perspective?</h1></section>
+					<section>
+						<img class="r-stretch" src="../../img/planetary/solar-system-abridged.svg">
+						<h1>Dynamical excitation &rarr; chaos in the inner solar system</h1>
+					</section>
+					<section>
+						<h1>Asteroids are witnesses (and participants) of inner solar system dynamics</h1>
+						<img class="r-stretch" src="../../img/planetary/asteroids.png">
+					</section>
+					<section data-background-image="../../img/planetary/asteroid-collision.jpg" data-background-opacity="0.6">
+						<h1>Asteroid collisions release energy and generate heat</h1>
+						<div class="fragment">
+							<div class="cols">
+								<div><img src="../../img/planetary/impact-heat1.png"/></div>
+								<div><img src="../../img/planetary/impact-heat2.png"/></div>
+								<div><img src="../../img/planetary/impact-heat3.png"/></div>
+								<div><img src="../../img/planetary/impact-heat-scale.svg"/></div>
+							</div>
+							<cite>
+								<a href="https://doi.org/10.1016/j.gca.2012.08.001">Davison+ 2012</a>,
+								<a href="https://doi.org/10.1038/ncomms6451">Bland+ 2014</a>
+							</cite>
+						</div>
+						<div class="lfoot"><a href="https://www.jpl.nasa.gov/images/pia17016-asteroid-familys-shattered-past-artist-concept/">NASA/JPL-CalTech</a></div>
+					</section>
+					<section>
+						<h1 class="r-fit-text">Meteorites sample the asteroid population</h1>
+						<img class="r-stretch" src="../../img/planetary/meteorite.svg"/>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image="https://upload.wikimedia.org/wikipedia/commons/c/c4/Fire_looped_1.gif">
+						<h1 class="r-fit-text">Meteorite thermochronology</h1>
+						<img class="r-stretch" src="../../img/planetary/cartoon-asteroid.svg">
+					</section>
+					<section data-auto-animate>
+						<h1 class="r-fit-text">K-Ar <em>radio</em>chronometer</h1>
+						<img class="r-stretch" src="../../img/isotopes/K-Ar.svg"/>
+					</section>
+					<section data-auto-animate>
+						<h1>K-Ar <em>radio</em>chronometer</h1>
+						<div class="cols">
+							<div style="flex-grow:1;"><img src="../../img/isotopes/K-Ar.svg"/></div>
+							<div style="flex-grow:2;" class="r-stack">
+								<img width=1000px class="fragment current-visible" src="../../img/isotopes/K-decay.svg"/>
+								<img width=1000px class="fragment current-visible" src="../../img/isotopes/K+Ar-decay.svg"/>
+								<img width=1000px class="fragment fade-in" src="../../img/isotopes/K-Ar-decay.svg"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h1>K-Ar <em>thermo</em>chronometer</h1>
+						<div class="cols">
+							<div>
+								<p>At high temperatures, Ar is lost from the mineral.</p>
+								<img height="500px" src="../../img/isotopes/K-Ar-thermochronometer-warm.svg"/>
+								<h5>&gg;500 K</h5>
+							</div>
+							<div class="fragment">
+								<p>At low temperatures, Ar is retained and records time.</p>
+								<img height="500px" src="../../img/isotopes/K-Ar-thermochronometer-cool.svg"/>
+								<h5>&ll;500 K</h5>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">When did giant planets migrate?</h1>
+					</section>
+					<section>
+						<h1>Can we reconstruct asteroid belt collisional history (and system scale dynamical excitation) from meteorite thermochronology?</h1>
+					</section>
+				</section>
+
+				<section>
+					<section data-auto-animate=""><h1 class="r-fit-text">Modeling asteroid-scale thermochronology</h1></section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Modeling asteroid-scale thermochronology</h1>
+						<div class="cols">
+							<div style="flex-grow:1;">
+								<div class="fragment"><ul class="snug" style="font-size:20px">
+									<li>midplane temperature</li>
+									<li>heat-producing element abundances</li>
+									<li>Ar closure temperature</li>
+									<li>planetesimal radius</li>
+									<li>time of accretion</li>
+									<li>material properties</li>
+								</ul></div>
+								<img height=300px src="../../img/planetary/gpm/asteroid-diagram-no-impact.svg"/>
+							</div>
+							<div style="flex-grow:2;">
+								<video onclick="this.paused ? this.play() : this.pause();" src="../../img/planetary/gpm/TtAr.mp4"></video>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Modeling asteroid-scale thermochronology</h1>
+						<div class="cols">
+							<div class="r-stack">
+								<img width=800px class="fragment current-visible" src="../../img/planetary/gpm/impactfluxes-nolabels.svg"/>
+								<img width=800px  class="fragment fade-in" src="../../img/planetary/gpm/impactfluxes-labels.svg"/>
+							</div>
+							<div class="r-stack">
+								\[ \begin{aligned}
+									F_o &:~\text{Initial flux}\\
+									t_o &:~\text{onset time}\\
+									\tau &:~e\text{-folding time}
+								\end{aligned} \]
+								<img class="fragment fade-out" src="../../img/planetary/gpm/asteroid-diagram.svg"/>
+							</div>
+						</div>
+						<h3 class="r-fit-text">Exponentially decaying bombardments (impact fluxes)</h3>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1 class="r-fit-text">Asteroid &lrarr; meteorite thermochronologic data</h1>
+					</section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Compiling chondritic <sup>40</sup>K-<sup>40</sup>Ar system ages</h1>
+						<div class="cols">
+							<div>
+								<img src="../../img/planetary/nwa869.png"/>
+								<div class="lfoot"><a href="https://commons.wikimedia.org/wiki/File:NWA869Meteorite.jpg">Wikimedia</a></div>
+							</div>
+							<div>
+								<p class="fragment">Chondrite parent bodies did not melt</p>
+								<p class="fragment">Inner solar system chondrites had similar parent bodies with (roughly) similar histories</p>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Compiling chondritic <sup>40</sup>K-<sup>40</sup>Ar system ages</h1>
+						<div class="cols">
+							<div>
+								<p>Compiled &gt;200 ages from &gt;70 sources&hellip;</p>
+								<ul class="austere">
+									<li>Journals</li>
+									<li>Reports</li>
+									<li>Conference proceedings</li>
+									<li>Conference abstracts</li>
+								</ul>
+							</div>
+							<div>
+								<img height="120px" src="../../img/planetary/ads-logo.svg"/>
+								<img height="120px" src="../../img/planetary/scix-logo.svg"/>
+								<br>
+								<img height=180px src="../../img/planetary/gpm/dartmouth-library.png"/>
+							</div>
+						</div>
+					</section>
+					<section data-transition="zoom-out">
+						<h1 class="r-fit-text">Database of chondritic <sup>40</sup>K-<sup>40</sup>Ar system ages</h1>
+						<div class="r-stack">
+							<img width="1500px" class="fragment current-visible" src="../../img/planetary/gpm/results/kardata-0.svg"/>
+							<img width="1500px" class="fragment current-visible"  src="../../img/planetary/gpm/results/kardata-1.svg"/>
+							<img width="1500px" class="fragment current-visible" src="../../img/planetary/gpm/results/kardata-2.svg"/>
+							<img width="1500px" class="fragment current-visible" src="../../img/planetary/gpm/results/kardata-3.svg"/>
+					</section>
+					<section data-transition="zoom-in" data-auto-animate="">
+						<h1 class="r-fit-text" >Database of chondritic <sup>40</sup>Ar-<sup>39</sup>Ar ages</h1>
+						<div class="r-stack">
+							<img width="1500px" src="../../img/planetary/gpm/results/kardata-1.svg"/>
+							<ul class="austere">
+								<li class="fragment">early peak</li>
+								<li class="fragment">monotonic decline</li>
+								<li class="fragment">recent break-up events &rarr;</li>
+							</ul>
+						</div>
+					</section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text" >Database of chondritic <sup>40</sup>Ar-<sup>39</sup>Ar ages</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/results/prior.svg"/>
+					</section>
+				</section>
+
+				<section>
+					<section><h1>Fitting thermochronologic <br> (forward) models to data</h1></section>
+					<section>
+						<h1>Markov chain Monte Carlo</h1>
+							<video class="r-stretch" onclick="this.paused ? this.play() : this.pause();" class="fragment" src="../../img/ghe/fancy-metropolis.mp4"></video>
+					</section>
+					<section>
+						<h1 class="r-fit-text">MCMC inversion of chondrite thermochronologic data</h1>
+						<div class="cols">
+						<div style="flex-grow:1;">
+								<img width=600px src="../../img/planetary/gpm/results/prior.svg"/>
+							</div>
+							<div class="fragment" style="flex-grow:2;">
+								<img src="../../img/planetary/gpm/results/posterior-radius.svg"/>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image="../../img/planetary/double-rubble.jpg" data-background-opacity="0.5" data-auto-animate=""><h1 class="r-fit-text">Methods</h1></section>
+
+					<section data-auto-animate="">
+						<h1>Methods</h1>
+						<p><strong>MCMC inversions of simulations employing different bombardment scenarios</strong></h5>
+						<ol start="0">
+							<li class="fragment">No bombardment (flux of impactors)</li>
+							<li class="fragment">One bombardment</li>
+							<li class="fragment">Two bombardments</li>
+							<li class="fragment">Three or more bombardments</li>
+						</ol>
+						<div class="fragment">
+							<hr>
+							<p>Then, interpret the posterior timescales and characteristics of the bombardment(s).</p>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image="../../img/planetary/double-rubble.jpg" data-background-opacity="0.5"><h1 class="r-fit-text">Results</h1></section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Prior &amp; posterior <sup>40</sup>Ar-<sup>39</sup>Ar age distributions</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/results/prior.svg"/>
+					</section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Prior &amp; posterior <sup>40</sup>Ar-<sup>39</sup>Ar age distributions</h1>
+						<div class="cols">
+							<div>
+								<div class="r-stack">
+									<img data-fragment-index="1" width=800px src="../../img/planetary/gpm/results/prior.svg"/>
+									<img class="fragment" data-fragment-index="1"  width=800px src="../../img/planetary/gpm/results/posts-0.svg"/>
+									<img class="fragment" data-fragment-index="7" src="../../img/x.svg"/>
+								</div>
+								<div class="fragment none" data-fragment-index="4"> \[ \ell = -1016 \pm 2 \]</div>
+							</div>
+							<div>
+								<img class="fragment" data-fragment-index="2"  width=800px src="../../img/planetary/gpm/results/posts-1.svg"/>
+								<div class="fragment" data-fragment-index="5"> \[\ell = -992 \pm 2 \]</div>
+							</div>
+							<div>
+								<img class="fragment" data-fragment-index="3"  width=800px src="../../img/planetary/gpm/results/posts-2.svg"/>
+								<div class="fragment" data-fragment-index="6"> \[ \ell = -989 \pm 3 \]</div>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate="">
+						<h1 class="r-fit-text">Prior &amp; posterior <sup>40</sup>Ar-<sup>39</sup>Ar age distributions</h1>
+						<div class="cols">
+							<div>
+								<img width=800px src="../../img/planetary/gpm/results/posts-1.svg"/>
+								<div class="fragment" data-fragment-index="1">\[ \ell = -992 \pm 2 \]</div>
+							</div>
+							<div>
+								<img width=800px src="../../img/planetary/gpm/results/posts-2.svg"/>
+								<div class="fragment" data-fragment-index="1">\[ \ell = -989 \pm 3 \]</div>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate="">
+						<h1>One impact flux</h1>
+						<h3>Thermochronologic parameters</h3>
+						<div class="r-stack">
+							<img height=610px src="../../img/planetary/gpm/results/param-posteriors-1F.svg"/>
+							<img class="fragment" height=700px src="../../img/planetary/gpm/results/param-posteriors-highlights.svg"/>
+						</div>
+					</section>
+					<section data-auto-animate="">
+						<h1>One impact flux</h1>
+						<h5>Posterior distributions</h5>
+						<img class="r-stretch" src="../../img/planetary/gpm/results/corners-1F.png"/>
+					</section>
+					<section data-auto-animate="">
+						<h1>One impact flux</h1>
+						<div class="cols">
+							<div style="flex-grow:2;">
+								<img width=800px src="../../img/planetary/gpm/results/impactfluxes-primordial-only.svg"/>
+							</div>
+							<div style="flex-grow:1;">
+								<h4 style="color:#aeeeeeff">A mild and protracted <span style="font-weight:bold;">primordial</span> impact flux</h4>
+							</div>
+						</div>
+					</section>
+
+					<section data-auto-animate="">
+						<h1>Two impact fluxes</h1>
+						<h3>Thermochronologic parameters</h3>
+							<img class="r-stretch" src="../../img/planetary/gpm/results/param-posteriors-2F.svg"/>
+					</section>
+
+					<section data-auto-animate="">
+						<h1>Two impact fluxes</h1>
+						<h3>Bombardment intensity &amp; duration</h3>
+						<div class="cols">
+							<div style="flex-grow:2;">
+								<img width=800px src="../../img/planetary/gpm/results/impactfluxes.svg"/>
+							</div>
+							<div style="flex-grow:1;">
+								<h4 style="color:#eea9b8ff">An intense and brief <span style="font-weight: bold;">post-accretion</span> bombardment</h4>
+								<h4 style="color:#aeeeeeff">A mild and protracted <span style="font-weight:bold;">primordial</span> impact flux</h4>									
+							</div>
+						</div>
+					</section>
+
+					<section data-auto-animate="choice">
+						<h1 class="r-fit-text">Only two-flux simulations sufficiently reproduce the prior</h1>
+						<div class="cols">
+							<div class="r-stack">
+								<img width=800px src="../../img/planetary/gpm/results/posts-1.svg"/>
+								<img src="../../img/x.svg"/>
+							</div>
+							<div>
+								<img width=800px src="../../img/planetary/gpm/results/posts-2.svg"/>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate="choice">
+						<h1 class="r-fit-text fragment" data-fragment-index="2">Simulations with &gt;2 fluxes are not necessary to reproduce the prior</h1>
+						<div class="cols">
+							<div><img width=800px src="../../img/planetary/gpm/results/posts-2.svg"/></div>
+							<div class="r-stack">
+								<img width=800px src="../../img/planetary/gpm/results/posts-3.svg"/>
+								<img width=500px class="fragment" data-fragment-index="2" src="../../img/x.svg"/>
+							</div>
+						</div>
+						<div class="cols fragment" data-fragment-index="1">
+							<div>\[ \ell = -989 \pm 3 \]</div>
+							<div>\[ \ell = -989 \pm 3 \]</div>
+						</div>
+					</section>
+					<section data-auto-animate="choice">
+						<img class="r-stretch" src="../../img/planetary/gpm/results/posts-2.svg"/>
+						<h3>Bombardment histories with two impact fluxes are <strong>necessary and sufficient</strong> to reproduce the chondritic thermochronologic record</h3>
+					</section>
+				</section>
+
+				<section>
+					<section><h1>Posterior distributions of impact fluxes in a two-bombardment history</h1></section>
+					<section>
+						<div class="cols">
+							<div><h1>Primordial</h1><img height=600px src="../../img/planetary/gpm/results/fluxpost-beta2.png"/><h5>Onset anchored to t<sub>o</sub> = 0 My<sub>ss</sub></h5></div>
+							<div><h1>Post-accretion</h1><img src="../../img/planetary/gpm/results/fluxpost-beta.png"/></div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<h1 class="r-fit-text">Posterior distribution of post-accretion bombardment onset</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/results/onset-0.svg"/>
+					</section>
+					<section data-auto-animate>
+						<h1 class="r-fit-text">No evidence for a Late Heavy Bombardment</h1>
+						<img class="r-stretch" data-id="plot" src="../../img/planetary/gpm/results/onset-0.svg"/>
+					</section>
+					<section data-auto-animate>
+						<h1>Embedded in a gaseous disk</h1>
+						<div class="cols">
+							<div style="flex-grow:1">
+								<img width=400px data-id="img" src="../../img/planetary/gpm/gas-disk-migration.svg"/>
+							</div>
+							<div style="flex-grow:4">
+								<img width=1600px data-id="plot" src="../../img/planetary/gpm/results/onset-1.svg"/>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<h1>Dissipation of gaseous disk</h1>
+						<div class="cols">
+							<div style="flex-grow:1">
+								<img width=400px data-id="img"  src="../../img/planetary/gpm/mechanisms/gas-diss3.svg"/>
+							</div>
+							<div style="flex-grow:4">
+								<img width=1600px data-id="plot" src="../../img/planetary/gpm/results/onset-2.svg"/>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<h1>Self-unstable system after gas dissipation</h1>
+						<div class="cols">
+							<div style="flex-grow:1">
+								<img width=400px data-id="img"  src="../../img/planetary/gpm/mechanisms/instability2.svg"/>
+							</div>
+							<div style="flex-grow:4">
+								<img width=1600px data-id="plot" src="../../img/planetary/gpm/results/onset-3.svg"/>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<h1>Outer planetesimal disk-triggered instability</h1>
+						<div class="cols">
+							<div style="flex-grow:1">
+								<img width=400px data-id="img"  src="../../img/planetary/gpm/mechanisms/instability2.svg"/>
+							</div>
+							<div style="flex-grow:4">
+								<img width=1600px data-id="plot" src="../../img/planetary/gpm/results/onset-4.svg"/>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<h1>Giant planets migrated during an <em>instability</em></h1>
+						<div class="cols">
+							<div>
+								<img data-id="img"  src="../../img/planetary/gpm/mechanisms/instability2.svg"/>
+							</div>
+							<div>
+								<p>(&ge;75&percnt; confidence)</p>
+								<img width=1600px data-id="plot" src="../../img/planetary/gpm/results/onset-4.svg"/>
+							</div>
+						</div>
+					</section>
+						<section data-auto-animate>
+						<h1>Instability followed dissipation of the gaseous disk</h1>
+						<div class="cols">
+							<div>
+								<img data-id="img"  src="../../img/planetary/gpm/mechanisms/unstable-configuration2.svg"/>
+							</div>
+							<div>
+								<p>(&sim;50&percnt; confidence)</p>
+								<img width=1600px data-id="plot" src="../../img/planetary/gpm/results/onset-4.svg"/>
+							</div>
+						</div>
+					</section>
+				</section>
+											
+				<section>
+					<section data-auto-animate data-auto-animate-id="conclusion" data-background-image="../../img/planetary/double-rubble.jpg" data-background-opacity="0.5">
+					<h1 class="r-fit-text">Conclusions</h1></section>
+
+					<section data-auto-animate data-auto-animate-id="conclusion" data-background-image="../../img/planetary/double-rubble.jpg" data-background-opacity="0.3">
+						<h1>Conclusions</h1>
+						<div class="cols">
+							<div><ul class="austere">
+								<li class="fragment">Giant planets migrated during an early instability resulting from dissipation of the gaseous disk</li>
+								<li class="fragment">Importance of 10 My exoplanetary systems to understand ours&hellip;</li>
+							</ul></div>
+							<div><img src="../../img/planetary/gpm/mechanisms/instability2.svg"/></div>
+						</div>
+						<div class="fragment">
+							<hr>
+							<h5>Acknowledgements</h5> 
+							<p><em>Coauthors:</em> C. Brenhin Keller, Elisabeth R. Newton, Cam Stewart.</p>
+							<p>Maggie Thompson, Munazza Alam, Cyril Opeil for insightful conversations.</p>
+							<p>NSF AAPF, Award 2102591</p>
+						</div>
+					</section>
+				</section>
+				
+				<section><h1 class="r-fit-text">Appendix</h1></section>
+				
+				<section>
+					<section>
+						<h1>Appendix</h1>
+						<h3>Methods</h3>
+					</section>
+					
+					<section>
+						<h1 class="r-fit-text">Age distributions by meteorite classification</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/appendix/agegrid.svg"/>
+					</section>
+
+					<section>
+						<h1>Thermochronologic simulation methods</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/appendix/simulation-methods.svg"/>
+					</section>
+
+					<section>
+						<h1>Model validation</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/appendix/unperturbed-test.svg"/>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Appendix</h1>
+						<h3>Extended data</h3>
+					</section>
+					
+					<section>
+						<h1>No bombardments</h1>
+						<img class="r-stretch" src="../../img/planetary/gpm/appendix/proprior-0F.svg"/>
+					</section>
+					
+					<section>
+						<h1>Two &ldquo;free&rdquo; bombardments</h1>
+						<div class="cols">
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/corners-2F.png"/></div>
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/proprior-2F-free.svg "/></div>
+						</div>
+					</section>
+					
+					<section>
+						<h1>Three bombardments</h1>
+						<div class="cols">
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/corners-3F.png"/></div>
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/proprior-3F.svg "/></div>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Appendix</h1>
+						<h3>Decay constants and age of CAIs</h3>
+					</section>
+					<section>
+						<h1>Decay constants</h1>
+						<div class="cols">
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/corners-rennelambda.png"/></div>
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/corners-plus10Ma.png"/></div>
+						</div>
+					</section>
+
+					<section>
+						<h1>Age of CAIs (t<sub>ss</sub>)</h1>
+						<div class="cols">
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/corners-tss-4568d2.png"/></div>
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/corners-tss-4568d7.png"/></div>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Appendix</h1>
+						<h3>Exploring more realistic impactors</h3>
+					</section>
+					<section>
+						<h1>Impactor D = 1 km</h1>
+						<div class="cols">
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/corners-1km.png"/></div>
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/proprior-1km.svg "/></div>
+						</div>
+					</section>
+					<section>
+						<h1>Impactor D = 15 km</h1>
+						<div class="cols">
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/corners-15km.png"/></div>
+							<div><img data-preview-image src="../../img/planetary/gpm/appendix/proprior-15km.svg "/></div>
+						</div>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="../../revealjs/dist/reveal.js"></script>
+		<script src="../../revealjs/plugin/notes/notes.js"></script>
+		<script src="../../revealjs/plugin/markdown/markdown.js"></script>
+		<script src="../../revealjs/plugin/highlight/highlight.js"></script>
+		<script src="../../revealjs/plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				width: 1600,
+				height: 900,
+				autoPlayMedia: null,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX]
+			});
+		</script>
+	</body>
+</html>
